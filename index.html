@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kailash-Portfolio</title>
+    <link rel="website icon" type="png" href="images/icon.png">
+    <script src="https://kit.fontawesome.com/c0d7bc9482.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="smooth">
+    <div>
+        <div id="minicircle"></div>
+        <div class="header" id="header">
+            <div class="container">
+                <div id="nav">
+                <nav>
+                    <img src="images/portfolio-icon.png" alt="image" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+                <div class="header-text">
+                    <div class="bounding">
+                        <h1>UI/UX Designer</h1>
+                    </div>
+                    <div class="bounding">
+                        <h1>Hi, I'm</h1>
+                    </div>
+                    <div class="bounding">
+                        <h1> Kailash Kumlay </>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- about section of the website -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/about.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Web Developer with expertise in HTML, CSS, JavaScript, Node.js, Express.js, React.js, and
+                            MongoDB. Possesses a strong foundation in Data Structures and Algorithms with proficiency in
+                            solving 100+ problems on platforms like LeetCode, GeeksforGeeks, and Coding Ninja.
+                            Demonstrates excellent communication skills, leadership capabilities, and a collaborative
+                            approach to teamwork.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designer Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>FrontEnd <br>&nbsp;. React Js <br>&nbsp. HTML5 <br>
+                                    &nbsp;. CSS <br> &nbsp;. JavaScript <br> <br> BackEnd <br> &nbsp;. Node Js <br>
+                                    &nbsp;. Express <br> &nbsp;. MongoDB <br> &nbsp;. Firebase</li>
+                                <li><span>Versions Control</span><br>&nbsp;. Git <br> &nbsp;. Github</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>Sep-2023</span><br>Web Development Intern | CodeClause | 1-Sep-23 to 30-Sep-23
+                                </li>
+                                <!-- <li><span>2019 - 2021</span><br>Team lead at StarApp LLC</li> -->
+                                <!-- <li><span>2017 - 2019</span><br>UX/UI Design Executive at Coin Digital Ltd.</li> -->
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2020 - Present</span><br>B.Tech CSE with AI<br> G L Bajaj Group of
+                                    Institutions Mathura<br> Grades - 78.8%</li>
+                                <li><span>2018 - 2019</span><br>Intermediate with PCM<br> Benison School, Deoband<br>
+                                    Grades - 81.8%</li>
+                                <li><span>2016 - 2017</span><br>Matriculation with Science<br> Benison School,
+                                    Deoband<br> Grades - 95%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- services section -->
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2><span>Web Design</span></h2>
+                        <p>I am a results-driven Full Stack Developer with one year of hands-on experience in delivering
+                            end-to-end web solutions. During my tenure, I have successfully collaborated on numerous
+                            projects, utilizing a diverse skill set encompassing both frontend and backend development.
+                            My dedication to excellence is exemplified by my time as a Web Developer Intern at
+                            CodeClause, where I completed two impactful projects.</p>
+                        <a href="description.html">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2><span>UI/UX Design</span></h2>
+                        <p>I am a highly creative and innovative UI/UX designer with a track record of crafting
+                            intuitive, user-friendly interfaces that elevate the user experience. With a passion for
+                            creating simple yet elegant designs, I have consistently delivered visually appealing and
+                            functional UI solutions that resonate with users. My dedication to staying at the forefront
+                            of design trends ensures that my work remains fresh and impactful.</p>
+                        <a href="description.html">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2><span>Web APP Design</span></h2>
+                        <p>I am a seasoned UI/UX designer with a strong track record of creating engaging and
+                            user-friendly web applications. My work spans a diverse range of projects, including web
+                            applications such as weather apps, login pages, and more. Throughout my career, I have
+                            consistently delivered designs that not only meet but exceed user expectations, resulting in
+                            enhanced user experiences and increased user engagement.</p>
+                        <a href="description.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- portfolio -->
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/cloudDocs.png" alt="">
+                        <div class="layer">
+                            <h3>Cloud Docs App</h3>
+                            <p>It is three page website consisting of home page, feature page and docs page. It is a
+                                responsive website means responsive to any device.</p>
+                            <a target="_blank" href="https://princekumlay.github.io/Cloud_Hosting827/"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/weatherApp.png" alt="">
+                        <div class="layer">
+                            <h3>Weather App</h3>
+                            <p>Weather app provides the information about the temperature, wind speed and humidity. And
+                                data is fetched form the OpenWeatherMap API.</p>
+                            <a target="_blank" href="https://princekumlay.github.io/WeatherApp/"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/crudApp.png" alt="">
+                        <div class="layer">
+                            <h3>Taskeee App</h3>
+                            <p>The Basic CRUD Website is built using a combination of HTML, Bootstrap, and JavaScript.
+                                This website perform four fundamental operations: Create, Read, Update, and Delete.</p>
+                            <a target="_blank" href="https://princekumlay.github.io/CrudApp/"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a target="_blank" href="https://github.com/princekumlay" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!-- contact form -->
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> kailashkumlay82@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91-8273021880</p>
+                        <div class="social-icons">
+                            <a target="_blank" href="https://www.facebook.com/prince.kumblay/"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a target="_blank" href="https://twitter.com/kumlay12"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/elliot_princekumblay/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="https://github.com/princekumlay"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/kailash-kumlay-01312b203/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a target="_blank" href="https://codepen.io/Prince-Kumlay"><i
+                                    class="fa-brands fa-codepen"></i></a>
+                        </div>
+                        <a href="https://drive.google.com/file/d/14PheoAuBj3FMLwV-OF873iqHQEWe3l2O/view?usp=sharing"
+                            download target="_blank" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right"></div>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="enter your name" required>
+                        <input type="email" name="Email" placeholder="email" required>
+                        <textarea name="Message" rows="6" placeholder="Yuor Message"></textarea>
+                        <button type="submit" class="btn btn2 btn3">Send</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+            <!-- footer section -->
+            <div class="copy-right">
+                <p>Copyright &copy Kailash</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- scripting part for the portfolio -->
+    <script src="./srcipt.js"></script>
+</body>
+
+</html>

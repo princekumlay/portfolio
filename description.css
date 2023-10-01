@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Cedarville+Cursive&family=Dosis:wght@300&family=Lato:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Dosis;
+    letter-spacing: 0.1rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #080808;
+    color: #fff;
+}
+
+
+/* ------header------------------ */
+.header{
+    width: 100%;
+    height: 100vh;
+}
+
+.header-text{
+    margin-top: 5%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 10px;
+}
+.header-text h1 span{
+    color: #ff004f;
+}
+
+.header h5{
+    font-size: 20;
+    margin: 15px 10px 10px;
+}
+
+.header p{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+
+
+nav ul li{
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+#webapp-design{
+    margin-bottom: 50px;
+}
+
+.copy-right{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    /* background: #262626; */
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .header-text{
+        margin-top: 50%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        width: 80%;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    .sidemenu{
+        height: 10px;
+    }
+    
+    .sidemenu li{
+        margin-top: -30px;
+    }
+    
+    
+}
+
+
+/* on page load animation for body */
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
