@@ -101,24 +101,14 @@ nav ul li a:hover::after{
         position: fixed;
         top: 0;
         width: 80%;
-        padding-top: 50px;
+/*         padding-top: 50px; */
         z-index: 2;
         transition: right 0.5s;
     }
     nav ul li{
         display: block;
         margin: 25px;
-    }
-
-    .sidemenu{
-        height: 10px;
-    }
-    
-    .sidemenu li{
-        margin-top: -30px;
-    }
-    
-    
+    }    
 }
 
 
